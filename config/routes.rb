@@ -54,4 +54,5 @@ HelloApp::Application.routes.draw do
   #     resources :products
   #   end
   root 'pages#home'
+  get 'about' , to: 'pages#about'
 end
